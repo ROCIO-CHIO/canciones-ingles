@@ -16,27 +16,183 @@ const canciones = [
     urlCancion: "https://www.youtube.com/watch?v=AG-erEMhumc",
     gif: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2x0aG14bW95bG5vM2J2bWl3bWZ5c2h0bG5vM2J2bWl3bWZ5cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6wrebnKWlpxtrBJ6/giphy.gif",
     letras: [
-      {
-        en: "Maybe you don't like talking too much about yourself",
-        es: "Quizás no te gusta hablar mucho de ti mismo"
-      },
-      {
-        en: "But you should have told me",
-        es: "Pero deberías haberme dicho"
-      },
-      {
-        en: "That you were thinking 'bout someone else",
-        es: "Que estabas pensando en alguien más"
-      },
-      {
-        en: "You're drunk at a party",
-        es: "Estás borracho en una fiesta"
-      },
-      {
-        en: "Or maybe it's just that your car broke down",
-        es: "O quizás es solo que tu auto se averió"
-      }
-    ],
+  {
+    en: "Maybe you don't like talking too much about yourself",
+    es: "Quizás no te gusta hablar mucho de ti mismo."
+  },
+  {
+    en: "But you should have told me",
+    es: "Pero deberías haberme dicho."
+  },
+  {
+    en: "That you were thinking 'bout someone else",
+    es: "Que estabas pensando en alguien más."
+  },
+  {
+    en: "You're drunk at a party",
+    es: "Estás borracho en una fiesta."
+  },
+  {
+    en: "Or maybe it's just that your car broke down",
+    es: "O quizás simplemente se averió tu carro."
+  },
+  {
+    en: "Or your phone's been off for a couple of months",
+    es: "O tu teléfono ha estado apagado durante un par de meses."
+  },
+  {
+    en: "So you're calling me now",
+    es: "Así que ahora me estás llamando."
+  },
+  {
+    en: "I know you, you're like this",
+    es: "Te conozco, eres así."
+  },
+  {
+    en: "When shit don't go your way you needed me to fix it",
+    es: "Cuando las cosas no salen como quieres, necesitabas que yo las arreglara."
+  },
+  {
+    en: "And like me, I did",
+    es: "Y como siempre, lo hice."
+  },
+  {
+    en: "But I ran out of every reason",
+    es: "Pero me quedé sin razones para seguir haciéndolo."
+  },
+  {
+    en: "Now suddenly you're asking for it back",
+    es: "Y ahora, de repente, quieres recuperarlo."
+  },
+  {
+    en: "Could you tell me, where'd you get the nerve?",
+    es: "¿Podrías decirme de dónde sacaste el descaro?"
+  },
+  {
+    en: "Yeah, you could say you miss all that we had",
+    es: "Sí, podrías decir que extrañas todo lo que teníamos."
+  },
+  {
+    en: "But I don't really care how bad it hurts",
+    es: "Pero realmente no me importa cuánto te duela."
+  },
+  {
+    en: "When you broke me first",
+    es: "Porque tú me rompiste primero."
+  },
+  {
+    en: "You broke me first",
+    es: "Tú me rompiste primero."
+  },
+  {
+    en: "Took a while, was in denial when I first heard",
+    es: "Me tomó un tiempo, estaba en negación cuando lo escuché por primera vez."
+  },
+  {
+    en: "That you moved on quicker than I could've ever",
+    es: "Que me superaste más rápido de lo que yo jamás habría podido."
+  },
+  {
+    en: "You know that hurt",
+    es: "Sabes que eso dolió."
+  },
+  {
+    en: "Swear, for a while I would stare at my phone",
+    es: "Lo juro, durante un tiempo me quedaba mirando mi teléfono."
+  },
+  {
+    en: "Just to see your name",
+    es: "Solo para ver tu nombre."
+  },
+  {
+    en: "But now that it's there, I don't really know what to say",
+    es: "Pero ahora que aparece, realmente no sé qué decir."
+  },
+  {
+    en: "I know you, you're like this",
+    es: "Te conozco, eres así."
+  },
+  {
+    en: "When shit don't go your way you needed me to fix it",
+    es: "Cuando las cosas no salen como quieres, necesitabas que yo las arreglara."
+  },
+  {
+    en: "And like me, I did",
+    es: "Y como siempre, lo hice."
+  },
+  {
+    en: "But I ran out of every reason",
+    es: "Pero me quedé sin razones."
+  },
+  {
+    en: "Now suddenly you're asking for it back",
+    es: "Y ahora, de repente, quieres recuperarlo."
+  },
+  {
+    en: "Could you tell me, where'd you get the nerve?",
+    es: "¿Podrías decirme de dónde sacaste el descaro?"
+  },
+  {
+    en: "Yeah, you could say you miss all that we had",
+    es: "Sí, podrías decir que extrañas todo lo que teníamos."
+  },
+  {
+    en: "But I don't really care how bad it hurts",
+    es: "Pero realmente no me importa cuánto te duela."
+  },
+  {
+    en: "When you broke me first",
+    es: "Porque tú me rompiste primero."
+  },
+  {
+    en: "You broke me first",
+    es: "Tú me rompiste primero."
+  },
+  {
+    en: "What did you think would happen?",
+    es: "¿Qué pensaste que iba a pasar?"
+  },
+  {
+    en: "What did you think would happen?",
+    es: "¿Qué pensaste que iba a pasar?"
+  },
+  {
+    en: "I'll never let you have it",
+    es: "Nunca te dejaré recuperarlo."
+  },
+  {
+    en: "What did you think would happen?",
+    es: "¿Qué pensaste que iba a pasar?"
+  },
+  {
+    en: "Now suddenly you're asking for it back",
+    es: "Y ahora, de repente, quieres recuperarlo."
+  },
+  {
+    en: "Could you tell me, where'd you get the nerve?",
+    es: "¿Podrías decirme de dónde sacaste el descaro?"
+  },
+  {
+    en: "Yeah, you could say you miss all that we had",
+    es: "Sí, podrías decir que extrañas todo lo que teníamos."
+  },
+  {
+    en: "But I don't really care how bad it hurts",
+    es: "Pero realmente no me importa cuánto te duela."
+  },
+  {
+    en: "When you broke me first",
+    es: "Porque tú me rompiste primero."
+  },
+  {
+    en: "You broke me first (you broke me first)",
+    es: "Tú me rompiste primero (tú me rompiste primero)."
+  },
+  {
+    en: "You broke me first, ooh oh",
+    es: "Tú me rompiste primero, oh, oh."
+  }
+],
     notas: [
       "'bout = abreviación informal de 'about' (acerca de / sobre).",
       "should have told = deberías haber dicho (estructura para lamentar algo del pasado).",
