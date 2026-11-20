@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practicando English con Canciones</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>🎧 Practicando English</h1>
+    <p>Aprende inglés con letras de canciones, traducción y memes</p>
+  </header>
+
+  <main class="container">
+    <!-- Vista Principal: Filtros y Lista de Canciones -->
+    <section id="vista-lista">
+      <div class="controles">
+        <div id="filtros-categorias" class="categorias"></div>
+        <input
+          type="text"
+          id="buscador"
+          placeholder="🔍 Buscar por título o artista..."
+        />
+      </div>
+
+      <div id="grid-canciones" class="grid-canciones"></div>
+    </section>
+
+    <!-- Vista de Estudio: Letra de la Canción -->
+    <section id="vista-cancion" class="vista-cancion oculto">
+      <div class="barra-superior">
+        <button id="btn-volver" class="btn-secundario">← Volver</button>
+        <button id="btn-toggle-traduccion" class="btn-primario">
+          👁️ Ocultar traducciones
+        </button>
+      </div>
+
+      <article id="contenido-cancion" class="tarjeta-estudio"></article>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
