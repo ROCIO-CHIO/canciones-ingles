@@ -199,8 +199,23 @@ const canciones = [
       "broke down = phrasal verb que significa averiarse o descomponerse."
     ]
   },
+  
   {
     id: 2,
+    titulo: "Heather",
+    artista: "Conan Gray",
+    categoria: "Sad",
+    urlCancion: "https://www.youtube.com/watch?v=AG-erEMhumc",
+    gif: "https://giphy.com/embed/Ty9Sg8oHghPWg",
+    letras: [
+  {
+    en: "Maybe you don't like talking too much about yourself",
+    es: "Quizás no te gusta hablar mucho de ti mismo."
+  },
+  ],
+    
+  {
+    id: 3,
     titulo: "Happy",
     artista: "Pharrell Williams",
     categoria: "Alegre",
