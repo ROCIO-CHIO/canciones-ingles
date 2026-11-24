@@ -206,16 +206,129 @@ const canciones = [
     artista: "Conan Gray",
     categoria: "Sad",
     urlCancion: "https://www.youtube.com/watch?v=24u3NoPvgMw&list=RD24u3NoPvgMw&start_radio=1",
-    gif: "https://giphy.com/embed/Ty9Sg8oHghPWg",
+    gif: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHp5YjZhdGpuY2h0c3lycjF4NjdpbWQza2o2aWNldjVwdW5ra2cyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AYMzMAgZIci8IgezfQ/giphy.gif",
     letras: [
+ {
+    en: "I still remember third of December, me in your sweater",
+    es: "Todavía recuerdo el tres de diciembre, yo con tu suéter"
+  },
   {
-    en: "Maybe you don't like talking too much about yourself",
-    es: "Quizás no te gusta hablar mucho de ti mismo."
-  }   
+    en: "You said it looked better on me than it did you",
+    es: "Dijiste que se veía mejor en mí que en ti"
+  },
+  {
+    en: "Only if you knew how much I liked you",
+    es: "Si tan solo supieras cuánto me gustabas"
+  },
+  {
+    en: "But I watch your eyes as she walks by",
+    es: "Pero observo tus ojos mientras ella pasa"
+  },
+  {
+    en: "What a sight for sore eyes, brighter than a blue sky",
+    es: "Qué alivio para la vista, más brillante que un cielo azul"
+  },
+  {
+    en: "She's got you mesmerized while I die",
+    es: "Ella te tiene hipnotizado mientras yo me muero por dentro"
+  },
+  {
+    en: "Why would you ever kiss me?",
+    es: "¿Por qué alguna vez me besarías?"
+  },
+  {
+    en: "I'm not even half as pretty",
+    es: "Ni siquiera soy la mitad de bonita"
+  },
+  {
+    en: "You gave her your sweater, it's just polyester",
+    es: "Le diste tu suéter, es solo poliéster"
+  },
+  {
+    en: "But you like her better",
+    es: "Pero te gusta más ella"
+  },
+  {
+    en: "Wish I were Heather",
+    es: "Ojalá yo fuera Heather"
+  },
+  {
+    en: "Watch as she stands with you holding your hand",
+    es: "Miro cómo ella está contigo sosteniendo tu mano"
+  },
+  {
+    en: "Put your arm 'round her shoulder, now I'm getting colder",
+    es: "Pones tu brazo sobre su hombro y ahora me siento más fría"
+  },
+  {
+    en: "But how could I hate her? She's such an angel",
+    es: "Pero, ¿cómo podría odiarla? Es un ángel"
+  },
+  {
+    en: "But then again, kinda wish she were dead as she walks by",
+    es: "Pero, pensándolo bien, a veces desearía que desapareciera cuando pasa"
+  },
+  {
+    en: "What a sight for sore eyes, brighter than a blue sky",
+    es: "Qué alivio para la vista, más brillante que un cielo azul"
+  },
+  {
+    en: "She's got you mesmerized while I die",
+    es: "Ella te tiene hipnotizado mientras yo me muero por dentro"
+  },
+  {
+    en: "Why would you ever kiss me?",
+    es: "¿Por qué alguna vez me besarías?"
+  },
+  {
+    en: "I'm not even half as pretty",
+    es: "Ni siquiera soy la mitad de bonita"
+  },
+  {
+    en: "You gave her your sweater, it's just polyester",
+    es: "Le diste tu suéter, es solo poliéster"
+  },
+  {
+    en: "But you like her better",
+    es: "Pero te gusta más ella"
+  },
+  {
+    en: "I wish I were Heather",
+    es: "Ojalá yo fuera Heather"
+  },
+  {
+    en: "Oh, wish I were Heather",
+    es: "Oh, ojalá yo fuera Heather"
+  },
+  {
+    en: "Oh, oh, wish I were Heather",
+    es: "Oh, oh, ojalá yo fuera Heather"
+  },
+  {
+    en: "Why would you ever kiss me?",
+    es: "¿Por qué alguna vez me besarías?"
+  },
+  {
+    en: "I'm not even half as pretty",
+    es: "Ni siquiera soy la mitad de bonita"
+  },
+  {
+    en: "You gave her your sweater, it's just polyester",
+    es: "Le diste tu suéter, es solo poliéster"
+  },
+  {
+    en: "But you like her better",
+    es: "Pero te gusta más ella"
+  },
+  {
+    en: "Wish I were Heather",
+    es: "Ojalá yo fuera Heather"
+  }
   ],
     notas: [
-      "take a break = tomarse un descanso.",
-      "clap along = aplaudir al ritmo de la música."
+      "mesmerized = hipnotizado, fascinado.",
+      "wish I were.. = ojalá fuera... / quisiera ser...",
+     "kinda = (forma informal de kind of)  algo, más o menos, un poco."
     ]
   },
   
