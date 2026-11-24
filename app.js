@@ -211,9 +211,11 @@ const canciones = [
   {
     en: "Maybe you don't like talking too much about yourself",
     es: "Quizás no te gusta hablar mucho de ti mismo."
-  },
+  }
+      
   ],
-    
+  },
+  
   {
     id: 3,
     titulo: "Happy",
