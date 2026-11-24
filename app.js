@@ -14,7 +14,7 @@ const canciones = [
     artista: "Tate McRae",
     categoria: "Sad",
     urlCancion: "https://www.youtube.com/watch?v=AG-erEMhumc",
-    gif: "https://giphy.com/embed/Ty9Sg8oHghPWg",
+    gif: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjk4ZGRyYTUyZmV0OXJmZTlja200ZGg1cTZxNDZkcWxodGQyaDJpYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BXN1yegGYmUVLKbT2q/giphy.gif",
     letras: [
   {
     en: "Maybe you don't like talking too much about yourself",
