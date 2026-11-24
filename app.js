@@ -211,9 +211,12 @@ const canciones = [
   {
     en: "Maybe you don't like talking too much about yourself",
     es: "Quizás no te gusta hablar mucho de ti mismo."
-  }
-      
+  }   
   ],
+    notas: [
+      "take a break = tomarse un descanso.",
+      "clap along = aplaudir al ritmo de la música."
+    ]
   },
   
   {
